@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_refresh"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/str_refresh"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
